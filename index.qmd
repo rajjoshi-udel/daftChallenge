@@ -115,7 +115,7 @@ pgm.add_node("lemons", "Lemons\n(Provision)", 1, 1,
          'alpha': 0.95,
        })
 
-pgm.add_node("scurvy", "Scurvy\nPrevention" + r" $(Y)$", 3.25, 1,
+pgm.add_node("scurvy", "Scurvy\nPrevention" + r" $(Y)$", 5, 1,
        aspect=3, scale=1.05,
        plot_params={
          'facecolor': 'lightblue',
@@ -166,7 +166,7 @@ pgm.add_node("kills", "Kills\nBacteria", 2.5, 1,
          'alpha': 0.95,
        })
 
-pgm.add_node("prevent", "Scurvy\nPrevention", 4, 1,
+pgm.add_node("prevent", "Scurvy\nPrevention", 4.2, 1,
        aspect=3, scale=1.05,
        plot_params={
          'facecolor': 'lightgray',
@@ -218,7 +218,7 @@ pgm.add_node("vitc", "Vitamin C\n(Ascorbic Acid)", 2.75, 1,
          'alpha': 0.95,
        })
 
-pgm.add_node("scurvy", "Scurvy\nPrevention" + r" $(Y)$", 4.5, 1,
+pgm.add_node("scurvy", "Scurvy\nPrevention" + r" $(Y)$", 4.7, 1,
        aspect=3, scale=1.05,
        plot_params={
          'facecolor': 'thistle',
